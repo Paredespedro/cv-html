@@ -1,0 +1,28 @@
+
+h2
+{ color: blue;}
+.blocgauche
+{ color:rgb(207, 124, 14);}
+h3
+{
+    color:cornflowerblue;
+}
+.skill.name {
+    display: flex;
+    flex-direction: column;
+color: #6d7587;
+font-size: 0,5em;
+font-weight: 500;
+}
+.skill .name span {
+
+margin: 15px 0;
+box-shadow: inset 9.91px 9.91px 15px #d9dade,
+inset -9.91px -9.91px 15px #ffffff;
+padding: 0,5px 1px;
+text-align: center;
+border-radius: 50px;
+border: 5px solid #ebecf0;
+
+
+}
