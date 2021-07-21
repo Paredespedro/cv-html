@@ -1,37 +1,46 @@
-
+body {
+    background-color: lightblue;
+    margin-left: 0px;
+  }
 h2
-{ color: blue;}
-.blocgauche
-{ color:rgb(207, 124, 14);}
+{ color: blue;
+    border: darkblue ridge 2px;
+    background-color: rgb(148, 160, 212);
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+
+.left-bloc
+{ color:rgb(207, 124, 14);
+    border: darkblue ridge 2px;
+    background-color: rgb(224, 235, 163)
+}
 h3
-{
-    color:cornflowerblue;
+{ color:rgb(8, 77, 77);
+    border-bottom: 2px solid rgb(122, 149, 221);
 }
-.skill.name {
-    display: flex;
-    flex-direction: column;
-color: #6d7587;
-font-size: 0,5em;
-font-weight: 500;
-}
-.skill .name span {
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
 
-margin: 15px 0;
-
-padding: 0,5px 1px;
-text-align: center;
-border-radius: 50px;
-border: 5px solid #ebecf0;
-transition: 0.2s;
-cursor: pointer;
-}
-.skill .name span:hover {
-    box-shadow:  9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff, 
-inset 9.91px 9.91px 15px #d9dade; inset: -9.91px -9.91px 15px #ffffff;
-}
-.bar {
-    width: 400px;
-    height: 30px;
-    background-color: red;
+/* Container for skill bars */
+.container {
+  width: 90%; /* Full width */
+  background-color: rgb(230, 215, 215); /* Grey background */
 }
 
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 1px; /* Add top padding */
+  padding-bottom: 1px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.htmlcss {width: 20%; background-color: #2196F3;} /* Blue */
+.packoffice {width: 60%; background-color: #2196F3;} /* Blue */
+.Autocad {width: 60%; background-color: #2196F3;} /* Blue */
+.revit {width: 40%; background-color: #2196F3;} /* Blue */
+.Github {width: 20%; background-color: #2196F3;} /* Blue */
+.espagnol {width: 80%; background-color: #2bb900;} /* Green */
+.anglais {width: 30%; background-color: #04AA6D;} /* Green */
