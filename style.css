@@ -1,6 +1,5 @@
 body {
     background-color: lightblue;
-    margin-left: 0px;
   }
 h2
 { color: blue;
@@ -8,19 +7,26 @@ h2
     background-color: rgb(148, 160, 212);
     border-radius: 15px;
     text-align: center;
-    
+    width: 85%;   
+}
+P {
+    text-align: left;
+    width: 85%;
+}
+h3 {
+    border-bottom: rgb(54, 54, 189) ridge 1px;
+    width: fit-content;
 }
 
-
-.left-bloc
+header {
+    text-align: center;
+}
+.left-bloc h3
 { color:rgb(207, 124, 14);
     border: darkblue ridge 2px;
     background-color: rgb(224, 235, 163)
 }
-h3
-{ color:rgb(8, 77, 77);
-    border-bottom: 2px solid rgb(122, 149, 221);
-}
+
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
