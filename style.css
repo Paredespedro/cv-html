@@ -4,6 +4,10 @@ body {
   img
   {width: 100%;
     border-radius: 15px;}
+    .Nom
+    {width: 100%;
+      text-align: center;
+      }
 h2
 { color: black;
     border: black ridge 2px;
