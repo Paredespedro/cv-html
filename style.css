@@ -7,7 +7,8 @@ body {
     .Nom
     {width: 100%;
       text-align: center;
-      }
+      font-family: Georgia, serif;
+      text-shadow: 2px 3px 5px #CFB565;}
 h2
 { color: black;
     border: black ridge 2px;
