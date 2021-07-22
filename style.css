@@ -5,8 +5,8 @@ body {
   {width: 100%;}
 h2
 { color: black;
-    border: darkblue ridge 2px;
-    background-color: rgb(148, 160, 212);
+    border: black ridge 2px;
+    background-color: #FBD6BC;
     border-radius: 15px;
     text-align: center;
     width: 100%;   
@@ -16,7 +16,7 @@ P {
     width: 100%;
 }
 h3 {
-    border-bottom: rgb(54, 54, 189) ridge 1px;
+    border-bottom: #E9E5DD ridge 3px;
     width: fit-content;
     width: 100%;
 }
@@ -27,9 +27,10 @@ header {
 }
 .left-bloc h3
 { color:black;
-    border: darkblue ridge 2px;
-    background-color: rgb(224, 235, 163);
+    border: black ridge 2px;
+    background-color: #FBD6BC;
     width: 100%;
+    border-radius: 5px;
 }
 
 /* Make sure that padding behaves as expected */
@@ -43,15 +44,15 @@ header {
 
 .skills {
   text-align: right; /* Right-align text */
-  padding-top: 1px; /* Add top padding */
-  padding-bottom: 1px; /* Add bottom padding */
-  color: white; /* White text color */
+  padding-top: 3px; /* Add top padding */
+  padding-bottom: 3px; /* Add bottom padding */
+  color:#EFE8D3; /* White text color */
 }
 
-.htmlcss {width: 20%; background-color: #2196F3;} /* Blue */
-.packoffice {width: 60%; background-color: #2196F3;} /* Blue */
-.Autocad {width: 60%; background-color: #2196F3;} /* Blue */
-.revit {width: 40%; background-color: #2196F3;} /* Blue */
-.Github {width: 20%; background-color: #2196F3;} /* Blue */
-.espagnol {width: 80%; background-color: #2bb900;} /* Green */
-.anglais {width: 30%; background-color: #04AA6D;} /* Green */
+.htmlcss {width: 20%; background-color: #7e6757;} /* Blue */
+.packoffice {width: 60%; background-color: #7e6757;} /* Blue */
+.Autocad {width: 60%; background-color: #7e6757;} /* Blue */
+.revit {width: 40%; background-color: #7e6757;} /* Blue */
+.Github {width: 20%; background-color: #7e6757;} /* Blue */
+.espagnol {width: 80%; background-color: #7e6757;} /* Green */
+.anglais {width: 30%; background-color: #7e6757;} /* Green */
