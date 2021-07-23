@@ -62,3 +62,23 @@ header {
 .Github {width: 20%; background-color: #7e6757;} /* Blue */
 .espagnol {width: 80%; background-color: #7e6757;} /* Green */
 .anglais {width: 30%; background-color: #7e6757;} /* Green */
+
+@media screen and (max-width: 680px){ 
+  body{
+      background-color: orange;
+      }
+  }
+
+ @media screen and (min-width: 681px) and (max-width: 1279px){
+  body{
+      background-color: blue; 
+      }
+  h1 { font-size: 20px;
+  }
+ }
+
+ @media screen and (max-width: 1280px){ 
+  body{
+      background-color: green ;
+      }
+  }
