@@ -1,65 +1,66 @@
-    body {
-        background-color: #dabb9d;
-    }
-    img
-    {width: 100%;
-        border-radius: 15px;}
-        .Nom
+        body {
+            background-color: #dabb9d;
+        }
+        img
         {width: 100%;
-        text-align: center;
-        font-family: Georgia, serif;
-        text-shadow: 2px 3px 5px #0f0f0e;}
-    h2
-    { color: black;
-        border: black ridge 2px;
-        background-color: #FBD6BC;
-        border-radius: 15px;
-        text-align: center;
-        width: 100%;   
-    }
-    P {
-        text-align: left;
-        width: 100%;
-    }
-    h3 {
-        border-bottom: #E9E5DD ridge 3px;
-        width: fit-content;
-        width: 100%;
-    }
+            border-radius: 15px;}
+            .Nom
+            {width: 100%;
+            text-align: center;
+            font-family: Georgia, serif;
+            text-shadow: 2px 3px 5px #0f0f0e;}
+        h2
+        { color: black;
+            border: black ridge 2px;
+            background-color: #FBD6BC;
+            border-radius: 15px;
+            text-align: center;
+            width: 100%;   
+        }
+        P {
+            text-align: left;
+            width: 100%;
+        }
+        h3 {
+            border-bottom: #E9E5DD ridge 5px;
+            width: fit-content;
+            width: 100%;
+        }
 
-    header {
-        text-align: center;
-        width: 100%;
-    }
-    .left-bloc h3
-    { color:black;
-        border: black ridge 2px;
-        background-color: #FBD6BC;
-        width: 100%;
-        border-radius: 5px;
-    }
+        header {
+            text-align: center;
+            width: 100%;
+        }
+        .left-bloc h3
+        { color:black;
+            border: black ridge 2px;
+            background-color: #FBD6BC;
+            width: 100%;
+            border-radius: 5px;
+        }
 
-    /* Make sure that padding behaves as expected */
-    * {box-sizing:border-box}
+        /* Make sure that padding behaves as expected */
+        * {box-sizing:border-box}
 
-    /* Container for skill bars */
-    .container {
-    width: 90%; /* Full width */
-    background-color: rgb(230, 215, 215); /* Grey background */
-    }
+        /* Container for skill bars */
+        .container {
+        width: 90%; /* Full width */
+        background-color: rgb(230, 215, 215); /* Grey background */
+        }
 
-    .skills {
-    text-align: right; /* Right-align text */
-    padding-top: 3px; /* Add top padding */
-    padding-bottom: 3px; /* Add bottom padding */
-    color:#EFE8D3; /* White text color */
-    }
+        .skills {
+        text-align: right; /* Right-align text */
+        padding-top: 3px; /* Add top padding */
+        padding-bottom: 3px; /* Add bottom padding */
+        color:#EFE8D3; /* White text color */
+        }
 
-    .htmlcss {width: 20%; background-color: #7e6757;} /* Blue */
-    .packoffice {width: 60%; background-color: #7e6757;} /* Blue */
-    .Autocad {width: 60%; background-color: #7e6757;} /* Blue */
-    .revit {width: 40%; background-color: #7e6757;} /* Blue */
-    .Github {width: 20%; background-color: #7e6757;} /* Blue */
-    .espagnol {width: 80%; background-color: #7e6757;} /* Green */
-    .anglais {width: 30%; background-color: #7e6757;} /* Green */
+        .htmlcss {width: 40%; background-color: #7e6757;} /* Blue */
+        .packoffice {width: 60%; background-color: #7e6757;} /* Blue */
+        .Autocad {width: 60%; background-color: #7e6757;} /* Blue */
+        .revit {width: 40%; background-color: #7e6757;} /* Blue */
+        .Github {width: 20%; background-color: #7e6757;} /* Blue */
+        .espagnol {width: 80%; background-color: #7e6757;} /* Green */
+        .anglais {width: 30%; background-color: #7e6757;} /* Green */
 
+  
