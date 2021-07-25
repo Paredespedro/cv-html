@@ -73,7 +73,7 @@
       border-radius: 5px; 
       border: black ridge 1px;
       padding: 1px;
-      background-color: cornsilk;
+      background-color: #FBD6BC;
       transition: bacground ease-in 200ms;
       width: 22%;  
       text-align: center;
@@ -92,7 +92,7 @@
     border-radius: 5px; 
     border: black ridge 1px;
     padding: 1px;
-    background-color: cornsilk;
+    background-color: #FBD6BC;
     transition: bacground ease-in 200ms;
     width: 22%; 
     text-align: center; 
