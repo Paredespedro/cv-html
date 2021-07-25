@@ -97,8 +97,26 @@
     width: 22%; 
     text-align: center; 
     height: 25px;
+}
 
 }
 .cv:hover{
+    background-color: rgb(226, 160, 73);
+}
+
+.Lmotivation {                      
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color : black;
+    border-radius: 5px; 
+    border: black ridge 1px;
+    padding: 1px;
+    background-color: #FBD6BC;
+    transition: bacground ease-in 200ms;
+    width: 22%; 
+    text-align: center; 
+    height: 25px;}
+
+.Lmotivation:hover{
     background-color: rgb(226, 160, 73);
 }
