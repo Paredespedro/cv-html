@@ -1,5 +1,6 @@
         body {
             background-color: #dabb9d;
+            margin-bottom: 10px;
         }
      
         img
@@ -35,37 +36,35 @@
             text-align: center;
             width: 100%;
         }
-        .Logiciels
+        .Langues
         { color:black;
-            border: black ridge 2px;
-            background-color: #FBD6BC;
             width: 100%;
-            border-radius: 5px;
         }
+            
+            
 
-        /* Make sure that padding behaves as expected */
-        * {box-sizing:border-box}
-
-        /* Container for skill bars */
+        /* Container bars */
         .container {
-        width: 90%; /* Full width */
-        background-color: rgb(230, 215, 215); /* Grey background */
+        width: 90%; /* conteneur longueur */
+        background-color: rgb(230, 215, 215); /* color conteneur */
         }
+        
 
+        /* Conteneur et contenu  */
         .skills {
         text-align: right; /* Right-align text */
-        padding-top: 3px; /* Add top padding */
-        padding-bottom: 3px; /* Add bottom padding */
+        padding-top: 3px; /* Marge inté haut */
+        padding-bottom: 3px; /* Marge inté bas */
         color:#EFE8D3; /* White text color */
         }
 
-        .htmlcss {width: 40%; background-color: #7e6757;} /* Blue */
-        .packoffice {width: 60%; background-color: #7e6757;} /* Blue */
-        .Autocad {width: 60%; background-color: #7e6757;} /* Blue */
-        .revit {width: 40%; background-color: #7e6757;} /* Blue */
-        .Github {width: 20%; background-color: #7e6757;} /* Blue */
-        .espagnol {width: 80%; background-color: #7e6757;} /* Green */
-        .anglais {width: 30%; background-color: #7e6757;} /* Green */
+        .htmlcss {width: 40%; background-color: #7e6757;} 
+        .packoffice {width: 60%; background-color: #7e6757;} 
+        .Autocad {width: 60%; background-color: #7e6757;} 
+        .revit {width: 40%; background-color: #7e6757;} 
+        .Github {width: 20%; background-color: #7e6757;} 
+        .espagnol {width: 80%; background-color: #7e6757;} 
+        .anglais {width: 30%; background-color: #7e6757;} 
 
 
          /* bouton linkedin et cv */
