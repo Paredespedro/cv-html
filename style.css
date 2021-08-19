@@ -1,124 +1,139 @@
-        body {
-            background-color: #dabb9d;
-            margin-bottom: 30px;
-        }
-     
-        img
-        {
-            border-radius: 15px;
-            width: 90%;
-        height: 90%; }
-
-            .Nom
-            {width: 100%;
-            text-align: center;
-            font-family: Georgia, serif;
-            text-shadow: 2px 3px 5px #0f0f0e;}
-        h2
-        { color: black;
-            border: black ridge 2px;
-            background-color: #FBD6BC;
-            border-radius: 15px;
-            text-align: center;
-            width: 100%;   
-        }
-        P {
-            text-align: left;
-            width: 100%;
-        }
-        h3 {
-            border-bottom: #E9E5DD ridge 5px;
-            width: fit-content;
-            width: 100%;
-        }
-
-        header {
-            text-align: center;
-            width: 100%;
-        }
-        .Langues
-        { color:black;
-            width: 100%;
-        }
-            
-            
-
-        /* Container bars */
-        .container {
-        width: 90%; /* conteneur longueur */
-        background-color: rgb(230, 215, 215); /* color conteneur */
-        }
-        
-
-        /* Conteneur et contenu  */
-        .skills {
-        text-align: right; /* Right-align text */
-        padding-top: 3px; /* Marge inté haut */
-        padding-bottom: 3px; /* Marge inté bas */
-        color:#EFE8D3; /* White text color */
-        }
-
-        .htmlcss {width: 40%; background-color: #7e6757;} 
-        .packoffice {width: 60%; background-color: #7e6757;} 
-        .Autocad {width: 60%; background-color: #7e6757;} 
-        .revit {width: 40%; background-color: #7e6757;} 
-        .Github {width: 20%; background-color: #7e6757;} 
-        .espagnol {width: 80%; background-color: #7e6757;} 
-        .anglais {width: 30%; background-color: #7e6757;} 
-
-
-         /* bouton linkedin et cv */
-   .linke {                      
-      text-decoration: none;
-      font-family: 'Times New Roman', Times, serif;
-      color : black;
-      border-radius: 5px; 
-      border: black ridge 1px;
-      padding: 1px;
-      background-color: #FBD6BC;
-      transition: bacground ease-in 200ms;
-      width: 22%;  
-      text-align: center;
-      
-  
-
-  }
-  .linke:hover{
-      background-color: rgb(226, 160, 73);
-  }
-
-  .cv {                      
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    color : black;
-    border-radius: 5px; 
-    border: black ridge 1px;
-    padding: 1px;
-    background-color: #FBD6BC;
-    transition: bacground ease-in 200ms;
-    width: 22%; 
-    text-align: center; 
-    height: 25px;
+body {
+  background-color: #dabb9d;
+  margin-bottom: 30px;
 }
 
-
-.cv:hover{
-    background-color: rgb(226, 160, 73);
+img {
+  border-radius: 15px;
+  width: 90%;
+  height: 90%;
 }
 
-.Lmotivation {                      
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    color : black;
-    border-radius: 5px; 
-    border: black ridge 1px;
-    padding: 1px;
-    background-color: #FBD6BC;
-    transition: bacground ease-in 200ms;
-    width: 22%; 
-    text-align: center; 
-    height: 25px;}
+.Nom {
+  width: 100%;
+  text-align: center;
+  font-family: Georgia, serif;
+  text-shadow: 2px 3px 5px #0f0f0e;
+}
+h2 {
+  color: black;
+  border: black ridge 2px;
+  background-color: #fbd6bc;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+}
+P {
+  text-align: left;
+  width: 100%;
+}
+h3 {
+  border-bottom: #e9e5dd ridge 5px;
+  width: fit-content;
+  width: 100%;
+}
 
-.Lmotivation:hover{
-    background-color: rgb(226, 160, 73);
+header {
+  text-align: center;
+  width: 100%;
+}
+.Langues {
+  color: black;
+  width: 100%;
+}
+
+/* Container bars */
+.container {
+  width: 90%; /* conteneur longueur */
+  background-color: rgb(230, 215, 215); /* color conteneur */
+}
+
+/* Conteneur et contenu  */
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 3px; /* Marge inté haut */
+  padding-bottom: 3px; /* Marge inté bas */
+  color: #efe8d3; /* White text color */
+}
+
+.htmlcss {
+  width: 60%;
+  background-color: #7e6757;
+}
+.GitHub {
+  width: 50%;
+  background-color: #7e6757;
+}
+.JavaScript {
+  width: 30%;
+  background-color: #7e6757;
+}
+.revit {
+  width: 40%;
+  background-color: #7e6757;
+}
+.Autocad {
+  width: 60%;
+  background-color: #7e6757;
+}
+.espagnol {
+  width: 80%;
+  background-color: #7e6757;
+}
+.anglais {
+  width: 30%;
+  background-color: #7e6757;
+}
+
+/* bouton linkedin et cv */
+.linke {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  border-radius: 5px;
+  border: black ridge 1px;
+  padding: 1px;
+  background-color: #fbd6bc;
+  transition: bacground ease-in 200ms;
+  width: 22%;
+  text-align: center;
+}
+.linke:hover {
+  background-color: rgb(226, 160, 73);
+}
+
+.cv {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  border-radius: 5px;
+  border: black ridge 1px;
+  padding: 1px;
+  background-color: #fbd6bc;
+  transition: bacground ease-in 200ms;
+  width: 22%;
+  text-align: center;
+  height: 25px;
+}
+
+.cv:hover {
+  background-color: rgb(226, 160, 73);
+}
+
+.Lmotivation {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  border-radius: 5px;
+  border: black ridge 1px;
+  padding: 1px;
+  background-color: #fbd6bc;
+  transition: bacground ease-in 200ms;
+  width: 22%;
+  text-align: center;
+  height: 25px;
+}
+
+.Lmotivation:hover {
+  background-color: rgb(226, 160, 73);
 }
